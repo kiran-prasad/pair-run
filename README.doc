@@ -1,0 +1,9 @@
+To start the open the index.html file.
+The game components can be found in the /app folder.
+
+This is a memory game where you need to match pairs of tiles. Playing is very simple - you turn over one tile and then try to find a matching tile.
+
+Scoring is based on the following criteria
+- Each time you make a successful match you score 20 points.
+- If you fail to match and you should have been able to (a matching tile was previously shown), you score (-5 * number of times match tile has been shown). So if a matching tile has been revealed three times before, you will score -15.
+- At the end of a level, if successful, you score a bonus of the number of seconds remaining. Also, if you have perfect recall, you score a bonus of (5 * number of pairs in the level).
